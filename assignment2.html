@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="assignment2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" style="margin-top: 20px;">
+
+        <h1>6 Countries To Visit Once In Your Lifetime</h1>
+        <div class="row" style="margin-top: 50px;">
+
+            <div class="card" style="width : 400px;">
+
+                <img class="img-card-top" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxIQEA8QEA8PDQ8NEA8NDw4PFREWFhUVFRUYHSggGBolGxUVITEhJSkrLjIuFx8zODMtNygtMCsBCgoKDg0OGxAQGi0fHSUtLSstLS0tLS0tLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAEBQMGAAECB//EAEQQAAEDAgQCBgcFBQYHAQAAAAEAAgMEEQUSITETQQYiUWFxgQcUIzJCkbFicqHB0RVSouHwM1NjgpLCJENzk9Li8SX/xAAbAQABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EADMRAAIBAgQCCAUEAwEAAAAAAAABAgMREiExQQRRMmFxgbHB0fAFEyKRoRQj4fEzUnJC/9oADAMBAAIRAxEAPwBQsXdllllHaHNlllvKurJhzmyyy6ssskI1ZZZdWWWSEc2W7LoBZZKwxqy6W7LdkwjSyy6sssmEc2WnBSBqxzFCUiE2DEqWGayjkaogUGVmijKVmP6SpTSKW6qsE1k2palUqtILCoOwbqCaAFZDLdTgqroWNRJVUyVVFOrZNECldVTKzSqlepSK25tlYcEg4Yzu987A/CP1Kmw7BS72rx1R/Zg/Ee3wRMsRC3+CoXSqS7vX0MXi6ueCPf6eo0pqlNqSrsqtFLZMKeoWiUS60dbdMmvBVLpauyd0VemEOHx3Qc1OiopgVIW3SEJXUixNuEsSEeCZVmVTBi3kWUdlchyreVTZFmRIe5FlWZVNkWZEhrkWVZlU2RZkSFciyrMqlyLeRMK5FlWZVNkWZEhXIsq21ikyKWONRlkK5wyNdGJGRxLt0KpVKhGWYnmiQUjE7miQE8SjGZTqRAGlF081kNIyy01yI0mgKbTH9NUJlDLdVqnmTWnnVOpTLVOY5BR+D4R6y/X+yZq89vY0d5+iW0DHSvbGzVzjYdg7Se4br0fD6ZkMYjZsNzzc7mSrHw/g/nTxS6K/L5ev2AcdxXyoWj0n+Fz9P4E9ZQACwAAAsABYAdiQVtEr7LEHJPW0S6c54ok0BC4Y8hP62i7knqKeycRNBOmFPVJECQiYpkhFso6+yc01WCqRBUplS1luaYRb84WJC3EFiQjy8RrfDRghW+Csm512IC4a3w0cIV1wUrjYgDhrfDR/AW+Ak2LEL+Es4SLmAaATzcxuva5wH5qbgprjYhfwl1wkdwFvgprixAIiW+EjuCs4KVxYwAxrqNqJkjUF0OcshsYVE1TGNQQvRbVlVXmFi7gU0SAniTx7EDPEowmDnEQTxIV7bJzPEl08SuwkVJxsDscjqeZAEWRuFw8SQN+Hd/3R+u3mifLc3hWrIY1FXeiL90RhyN4rveeOr3M/nv8AJW6nnVQo6hOqWoW9SpRpQUI7GLVqSqTc5blhY9ZIwFBQTIxj0QGLayiSGsolc3NBQFVSXSEUKppbIMtIVurKLuSWqo0hC+ORFRToWSEhcNcQkIbesrEs4q2kI2I1sRokRrsRrDxHTYgXhLYiU8rbNJF7hptltmvblfS/jok3QV5kpA68rhndZ0+QuOxNsvK5O+qe418rjTgrUjWtaXOIa1oLnOcbBoGpJPII/hKs+kKUx0jQDYSTMa/tLA1zvlma1JO7sRi7uxXcd6ROmeG05yRMe1weQQ+RzSCCRybcbc+fYrRgGKNqW5XWbMBq0aNfbm39F5m2Zvf8in/R+os9hbcOD22vcXNxoo1JOKuaEaMJxcVqeh8Bb4KOewZiOYtcdgN7fQrnIliMxTBBCsdEi8qQY7Xvinp2NcxrZHuztcHZnjRthYEfETy2CbFclG7YTUNSqd1imtSUlqigudxO5LFKj4ZUhbJqj6eZVqsA1OY5Buo5GLiGVTjVVHkyzqLZ4kvqIU9ljQM8KNCYGcSuzRp1gtPkZmPvP18G8v181zBQcWQM5bu7mjf9PNNp4bLe+HQxXqPbJeZjcfPDaC7fQmglsmlLUJCxyMp5lrGYWqmqEygmVXpp01p51EcfxyKTdLYJkZHIkI4qKYFKKuiVgBXEsIKQilVVElU9LZXiqo0oqaJIRV+EViIrcSpInmOWVjZG2zNJ1FwCPwIWJsUeY2JcydrgpGpNg+JtqIWSt+IdYA3yuG4TSJ651ys7M6dwyuhZ0rqnRMicDI29Qxp4WW7hkebEEG402HYFB6Nng0TQPhe6+jgNQNid1x04kLYoiLaVAdrfcRPtoBrzU/o5eDR5R8L9dCBqBz8lO/0r3zJ4f2W+vzDK7HY4atsD9uDLI83a1rdA5tyTq45SAB+8O1ecVeOzTzGd4BuNGFhytZqMgF+4eN7pt09v69IOyKIgkXsSz+SQTPeImua4Zj71m3zeSIrWtbUJRpKMcd9ve5HHDcDTy6x5kfkmNBWPgIe1l7ODhfigAtNxfRR1bSGkttm6tidt3Jdhsj3PAcczX5rXAuCPBRtji2y22otR5lkwTGXw1RqZ3tySEmZ2cvcWuLzqwXdplNhbm0c1acLxt9TVx5M7YJIZXcN8bQQW5QTmvf3m6abO+XntRcOjaLWdbMCLl2tt/MK3dEpS6raLN6jJY+r1bM4cZF+03TTl1alarRTTlyXkXhyqvSRw9apdQMrnuNyBYEsF/wAD8laJCq7jVjUQ3t1bnXsLh+irSmVqKzCalKKpqczhLqhiDGZJwErlNBIsnjUA0R9UB0HEEqYRSJDBKmEEqrVIFiExruopY1qKRFU0Jke1jd3uAHdfn+arpO9kGbVrsOwHDLRmUjV5s37gP5m/yC4rqVXI0bWsDGjqtaGt8ALJVW0q7Ph6Xyqahy8d/wAnKVqjq1HPn7X4KVLHYrTHJpXUqUvbYo9wIfTzJnTzpDG9GwTJWEWSCdHwTquQTplBOmHH0cqna5KIZkZHKmEGOaCkXSmuZSUz6hwBLQBG0/HKdGt+e/cCnLHryv0rYvxKhlK09SAZ5O+Z7Rb5NI/1lB4ir8qm5b7doDia3yqbktdu08+qAXvc+S73vcXPcficTclaRFliwsbOexMT9GukU9NE6KIMcXEuAkFzH1Mt29Ya3sbEa2XovRLGm1ULRnBnY32rCfaWBtmItz/rdebNwqFuoMl9Nb2PbyctnD48188gP2bt107CrlVUqmmT7PE9Rp8NXhGzSfeek9NmnhRG5aBMb7f3bu3+tVrAMWZSUJcfaP4nViYQHu01tfs0+aocVZI1oYZZZGAgtbM57wwjmBm03RJxeUtDbss1xNslwSbDXXuVZ0ndWz/BajSvTwS53YyxqvdVTunbHJFmYxga7rOBaCL6IObicJuQyB4JzWbroBYn+uSHGOSgW6mwHuu10zfvLP25Nb3ma2F8gNibd/eE7hO+iCK0FhQfU6s0BJNgQGkm4zE6eYQNFE7iML2Obr1jlOgIPNY7H5bW9mNP3Dy81H+2ps1w8crjK0N+XkfmUo05JWsO5Xf9DCqDg6PKXZNA+w096xv5FPsDrGtqWvkkDWMEjW3GmUxtsPnfzVV/bkpduz3r3DSOwW371KzE3uIvk15WPd2nvUHTlkRm04tN+B6Mcbp3Alsnza9pPgCNUvnqGyPY9uoAJsdCNdiOWyrFPWOJ+H5fzTemnO+ir1IsqxjGLyHInzHu5FRTMuo4CEVuqryZLVCqeJASsTuWNAzxI0JgZxFzXWRkEqFkZZaY6yM1cCnZjqGVXDoZBdzpjs3qM+8RqfIW/wBSoNPISQBqToB2lelYMBFG2MbgdYjm46k/NWPh/D462N6R8dgPHcRhpYVrLLu3LG94AJJAABJJ0AA3JXlnS70sU0LnRUMfrj2+/NcimZyuCNX622sNdCUu6YY/U4xWfsjDnZadhIrJxcMflPXLiP8Alt2t8TvJXTod0UjwuiylkM0t3mrljjJdPDncQNbk5WEdUaGxFrm66+NGlRip1vqk7Wje2XNvy1MC7ehRK2k6TTsbKXQQNeWewh4GdjHH3zcO0A1tnv3JfimA43EW8OsbOS8Mf1WtEYIvndnbqPC512Xs9e9ofC8EGOYmHM0gtJc0vjdfs6rmjvkCS1EQD5w7aNzHuPYwwM/8HIf6iW0Ipf8AK7B8J5FN0ir6J7WVsEcjXZsj4CA5wb75FrjQHYhqs2B9IKerF4X9YC7o39WRvlzHeLhM5oy2KNxFpJGx2H+I9uZ3yGYnuaVUcc6JCSXj00nq8wb7MMbka6UEnMXN1BINiQE37U8pLC+a0716CzReoZkdBOvP+ifSYzONNU2ZVxFzTa2WXLo61tMwtqB4jna3wzINSDhLCxywQzo6GdV+GdHQzqAh1NXNijdK89SNjpH/AHWi5+i8GrKx00r5pPfle6R3i43t4DZX70i4tkpRA09aofY/9JhDnfjkHmV5q1yyuPneSitvMyfiM8UlBbeL/gnusUWZYs6xm2EolJtoAfv6D+BYHO5htj/iG/0WGIjTy+YK02Ijt3/P+S0Mj1vDU3udGQdjuzf/ANVHI9t7WJtqO36Lsg/K35fqtOaSb9pt9UkNJSOJHNcCMrnNfvmdY6eS1G2wDbdVp0DZD9cqya+UkDUEW8xdcxMcAw63Lxfbmp7AWni02/F/XOxJLNY3yg2Ol3EHz0Wetk7t15a3H0WpGXPiTf6qaKAX0Gn9foo3ikTw1LvPI7jdr7ov4myOgiubkC+4IPdZRw02uyOihIPd/JAnIHO+4RTD9UzpnpbG2yJjdZV5q4DFYdQSo6ORIopkdDMqk4BYzGZ1UE0a6iluuzqg6MLqKZ4kG9tk5mjQE8SsQmAnEK6PRZpc52j1/wAx2/M+SadMsfNHQSSMOWV4EMBvYiR9xmHeGhzv8q6w2jMUYBHWd1neJ5eQsqh6SHcWWipSbMlnOfla7mMB+TnLrPhnDqOFS7X9r+Bz3F1cc29tEWT0U4BFRQR1sjntnqYetd9oGxPc10YItbNYNNyd3EK/VNa6l9rZz6UazNYC59MP7xrRq6PtaNRuLjQVvDXR0sTYY4pGwxgtYGB09mkkkWBLzueSh/asUbrUVZT08u/qNc4xwSdzY32kgOnwdXclpKszlKtUc5Z38O69vewDRWC8Tmyxy0kTmuZLEcRwGRrszHywuE/AaQdQ17WubbTI+w0YgMYxcTsrHRXy11BhDYAPeDqySaA+YDv4UsmcWG2R9EDMKqGCQtlipatt3es0ErerNEetxIBZ2UvLRyVfb0wo2yhsbnMDHRcJ72CSCJzJKyWEdU3LY5aqLUDVsGm4VunQcuir7vLs8bLqedtSLZd6+siMstQbugp5Dh9FHGLvqqs24ojbezjcNjB5ZJTcC5QM9O6Kzpy3jyXtHHd+X7EY3cBpd1tdzYWADilbAGStdDCyKN0FLVVrg+npIjrI6KNpvV1khJc9zLsBOXMbG7yhhzAupaaqndIAZK/Ef+E49jp744gbqSGtjDBfSyrVKair7e+f3e93pZK8kzz/AKZYUGxCqgjMVVHKHh0EYzuubuMmUa2te+vZrdWHo9iwqqdkwsC4WkaPhkGjh4X1HcQnVVh8jbl5ad+rG2w8CXE38dF550DldHPU0rmOis7jMifq6MZspBPPQx/JN06TvrHPuYtGegxSoyKZKWuQmOYp6vTueDZ56kX33c/IXPkq0mkrsTaSuysdMMU9YqnEG7IvZR9nV94+bifKyTtchGuUjXLDqXlJyZh1Lyk5PcJzLFDmWIeEHhFEWKOeToETTzTSHqN0HMjRE9GujZqIDJfKS5zWae91R+a9A6O0AghY0Dr5RnNrEnexR69WnBtRWeh6XQdeUVKcnzKY3CpWxtkl0D3Wby2Fz+Sllwq0bZL2YXEE67jb6qz9NXERwnkJH3/7Z/RFdFaWOqoskguOJe40Pu33VVzllIuKqlC7KWygjI97kO3wWeoMDbl3hv2//Ef0kpWQVUsLLhjWQltzcguYCfxKW1JBiYL2GuvkFL6rrMJGSksSRO7Do97+GimpaGMu0cCDtYf13rqcjL4W/wBy6whozNtt1rfIhDxSw3uxTaTsHx0DB81P6l2BFRxglvgEeyHX5/RVXUaYCoivvgsoXNT6pp0sngRo1EyhOLA2vsiYpkM9i4DrIjSYK9h1BOmEUt1XYZkfBOq86ZYhUHB1U+E4dxpdR1GWc/v/AHR5n8AUHTOLyGtF3OIDQNyVfMMoBDEGbuPWkd2u/QbKx8P4Z1Kt30Vr6evUB43iFTp2Wr9398xVUwLzb0g0sbq6hbOLwyPdHICS0EGRgNyLEe8NV65UQrzj0uYWXUjZw0O9Xma54NxeJ/Vdt9rJ+K63hH+8uvL7o52Wg/4srdGMjI5ZpXst5CM/VC4xVT8I8d2Fsh2PrrZZ4z3WOUErWHzxVELX00rRFlY0CDIXR9UHhuvfKQCBawIQpgaJP+FhjkqPddV1OaZsOuozuJc9w16jTYW1LVCKs89veuw7ElZFnpJG0wjaJ45BH6rTVlBDUODQ4hkb6gcXqg68FwG5LQLrzJjCXBoBLiQ1rQCXFxNgAN735L1R5ddz4y6oc6RlM2ons5+I1hf1YwBo2ljcC5zW2DuGRqAb9mWBuaXIHAColfNb2z6aCqio5n8QdbOYjLJe/vG+61+F4v5Kate/j77LW0WiE1cJwCKSNkUbDN6y2mhDm0MmG+uOiEYs5nrEDXyRjYGOSRumh7LXh1RBtVVeNQm1yMSa6lYPGVkYj/iSGCkL+Iyoi9aZTTf/AKFM0ZZg53WZiVCWEOYZAMzo22u4PsL73bCH1MTGOgm/aVI9odEZHtFW2MjQtl0ZONveyne7idFSqyVr8+78592mWjZJI0MMhkbnhkfMw7PFVLO0/wAZavIOj4kmxuqL4jA8RSZ4XObIYy10LbFzdDsDp2r2jHMQihppqxkDJZaeJ0ro35aeWzdSHOcLt0BO2ttLrzb0P0LquWuxKQC80pjbzs57jNKPAXiUaMf2atR8kuu7a8uok9UhjJEQqB0txHiz5GnqQ3YOwv8AiP4W8u9el9N5BSU7njSR54cI+2Rv5C5+XavG3sWPxVVdAqcVU/8AC7zQK6DlGtgqjYpWJc6xRXWk1hsJ6Jh9K2JjY2+60WCYxOQjXqVkipuNz0tsW9NLGOG504xB8DE/9EX6P5QaMW3zm/yCHx+mMzY7bMlzu+7kcCuOgUgFEza+Y3t5Kdvo99ZF9Br3qhT0ziLq6WwN3Rxnns2Jtz+Cr7sr42sva30/oFemy0THziU78OWN22ocGj6ZlRcWwMU0lybxk9QjS+jtPxKLGS3HjLK3UdAh4t22+rkwwynym/iAlFG/ZWLDQDa/cgVbxVieJSd9xtTs2PYmUTfog6WOx15I9qzpjYkyOWK6AqKZNVw+O6aM2iMoJlaqKZASxWVpnp0rqKVW6dUqzpiTZT08huALknQAaklSPpSTZoJJNgBuU1ocO4Wp1edzyb3D9VfoUXXeWnMp1qqorPUfdHacRdd1jIR4hg7B396tdPUXVJgqCE4o61bNOnGnHDFZGROcpyxS1LM4XS3FcPZNE+KQXjlY6N42u1wsbdhU9NUgog6qZE8b6OVv7MnfhVWx5Lp2mlliYPbCUhoLtiWnQ312c07WVxrqYvHCaSyO1pHM6jsn7jCPdvsSNhtqQQX016JxYhEATw547mnnA1Yf3XdrT+G476HQ9Jqygn9WxfMGCMshmEYkDyHaSF41kFjY212uL3V5r9R9cOnuufWvTW5DQsZY1shmsGw0MMjadjQGsEmS8jgNuqwBgtteQKPDMOax9NBIMzThdXTz/aLn03E+Zc9T0dZT1UT2UzxKxrhFKWg65iC86gXuCTftujHD2jX75Wysv94sJ/FiA5NZPL+v5Y9rkmFZ2xwVOpnpozR1tgc1RBE4sebcyHM4rd9C4D31ZqFgicXw24cji+WJvuF7tTLHyDju4bO396+atCtZA2WZxtEBx3uHWtlZZ1rb6MB8SVVsd6cGZkdJgxndUufG9r4G5BGwa5CCNRqL7NAGp3ClCnOrK0Vlz2S1z5WE3YYelbpLVTT/ALGpGxv9YbTh5jLnThznF3CdyaNGOP2d9CvSOiOBMoKKKlaQ4xt9o8f8yVxu93gSTbusFTPR70SFCXVNS7j18tzJK4l4izauDXHUuPN3PbbewdNsf9Vo3ZDaaX2UNtwSOs4eDb+ZCfiuIhCkqcOjHNv/AGfPyXeRlJQi5yPPPSFjAq6twYbwwXihts4/G/zIt4NCp8sKMCwtXJyquUnJ7nOyqylNyerFUkSgcxNpIkNJCixqBo1LgNliJ4SxTxoLjRdWyqRkqWtlUrZkHCemB8jszSO1pHzCB6LQuhgDXgg5nGx+X5LtsykbKnztYbCM+OlHSZhlhGXUseH27rEH6qQzqN8ya1gbVivUoVgoOSXT0wvdvMi48UdA7KLKFRXB47DpkyIjlSeOZFxyqnOA8ZjZj1ICl0UqLjkQHENGRM5qFmguiQ5O+i1AJZc7hdkViOwvPu/Lf5KdCnKpUUI6v3chWqRpwc3sDUHR/hNzPHtXDX7A/d8e1CVlFZX6enBSetoV2FKnGnBQjojlqk5VJOUtSiSRkLcUxCd1tCk08BCIDG1FWp3TVIKpMchBTWirUwi1nVLsTw6KdhjmjZLGd2SND237ddj3rulqrosm6XWOebYh6NKYO4lJLUUj+XDeZGt8LkO/iS6DoVXQgsixJ7WOc57gGPF3Hc+/uV6lLGgJolZ/V1bWbv2pPxI4Uec0vo9jDWsqKmeaNhJbEz2UTbm5sCXW1J2turdgtBBStyU8bIgbZso6z/vOOrvMoySNQkWUJ1qlTpMdJIb09QvNOmmN+tVRym8UN4orbG567vM/g0J30qxo08Baw2lluxlt2t+J3kDYd5HYvO2PWXxtTLAu/wAjP46pdYF3+Qc16kDkE16nY9ZTiZUohC4cxaa9dgqGhAh4KxELE+Jj4mdNlUjZkAJF2JFbses3GAlXQlQAkUrXprD3DOKtcRQAroFQYCbJbroOUQUgKGys2TMcp45EK0qRpQ2hkxjFMiopUoY9ERyoMoBYzHUcq9A6Mw5Kdva/2jvPb+Gy8ypnFzg0buIaPEmy9OppgAANgAAOwDZaHwqj9cpvZW+/v8lL4lV+iMOef2G+6ilhBXEUqna5bhjCWsokgrqHuV3kjultZR3SEee1VKQhWuLSrbXUPckFZSWTjElFWWT6kq7qnatKPo6yyQi3XuoJY0NSVd0be6YcXzRJZiMzIY3SyHKxguT9AO0k6WTqvmjiY6SVwZGwXc52w/U9y8j6UY66sk0u2FhPCjO5+277X027SRVayprrAV66prrFeL4g+oldK/S+jG8mMGzf65koIFduCjIWZicndmVixZska9TNehbrtrlBxIuIY16la9AtepWvQpRBSgG5liHzrFDCQwEIeuw9DBy6BV6x6hiCmORUSDhTKmYhTdiSZJGxSiJFwwIkU6qOpmRlG4r4ayyYuplA+BMp3ASiwUFdgrbo1zZSBkocpGuQ4K6Dk1h0x1gPWnb2Nu8+Q0/GyvEFSqZ0ab77/Bg+p/2qwxyrZ4CGGjfm7+Rk8bPFVtyyLNT1KYRTKrQVCZU1UrpVLA1yx7LoKCdGMemEAVdLdIa6i7lb3NugKulukI8/raOyWkFpV0rqPuVfraOyQwPSVZCbuxaOKMySuDWNFyfoAOZPYq3O4RguccrWgucTsAN1Rcaxt9S/ciJp9kz/AHH7R/DbxFWqYF1gq1X5a6xt0l6RSVr9bshYfZRX2+07td9NhzJREKKORTArInJyd5amLNuTvJ3ZG4KJwRBC4cEyYkwchcqYhRkIiYVMwOXbXqMhaBT2HaCc60ocyxRwkMBpdsW1iMz0UNp03o1ixVapKOo4p0W1bWLPmFOSoJFtYmWoGQHKh3rFisRAyIithYsUwZZ8C/sR9531TRixYt/h/wDDHsXgYtf/ACS7WERo6BYsRgI2pUzgWLEw4S1alWLEhCitSCuWLEhFE6daU2ml3x3tpfrheerFio8T0+4z+J6fcTRolixYqUilM7XJW1iGgZGVG5bWIiJxIyuSsWIqCo0sWLEhz//Z">
+                <div class="card-body">
+                    <h1 class="card-title">India</h1>
+                    <p class="card-text">
+                        India, officially the Republic of India is a country in South Asia. It is the second-most populous country, the seventh-largest country by land area, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west; China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
+                    </p>
+                    <button class="btn btn-warning"><a href="https://en.wikipedia.org/wiki/India">Know More</a></button>
+                </div>
+            </div>
+
+       
+            <div class="card" style="width : 400px;">
+
+                <img class="img-card-top" src="https://images.shiksha.com/mediadata/images/articles/1524563467php8VGRVd.jpeg">
+                <div class="card-body">
+                    <h1 class="card-title">USA</h1>
+                    <p class="card-text">
+                        The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or America, is a country primarily located in North America. It consists of 50 states, a federal district, five major unincorporated territories, 326 Indian reservations, and some minor possessions. At 3.8 million square miles (9.8 million square kilometers), it is the world's third- or fourth-largest country by total area. The United States shares significant land borders with Canada to the north and Mexico to the south, as well as limited maritime borders with the Bahamas, Cuba, and Russia. With a population of more than 331 million people, it is the third most populous country in the world. The national capital is Washington, D.C., and the most populous city is New York City.
+                    </p>
+                    <button class="btn btn-warning"><a href="https://en.wikipedia.org/wiki/United_States">Know More</a></button>
+                </div>
+            </div>
+
+        
+            <div class="card" style="width : 400px;">
+
+                <img class="img-card-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT324_rNV95nmfYZ-6pVbAfjfqzK2_uNDJ3DA&usqp=CAU">
+                <div class="card-body">
+                    <h1 class="card-title">Japan</h1>
+                    <p class="card-text">
+                        Japan (Japanese: 日本, Nippon [ɲippoꜜɴ] or Nihon [ɲihoꜜɴ] is an island country in East Asia, located in the northwest Pacific Ocean. It is bordered on the west by the Sea of Japan, and extends from the Sea of Okhotsk in the north toward the East China Sea and Taiwan in the south. Part of the Ring of Fire, Japan spans an archipelago of 6852 islands covering 377,975 square kilometers (145,937 sq mi); the five main islands are Hokkaido, Honshu, Shikoku, Kyushu, and Okinawa. Tokyo is Japan's capital and largest city; other major cities include Yokohama, Osaka, Nagoya, Sapporo, Fukuoka, Kobe, and Kyoto.
+                    </p>
+                    <button class="btn btn-warning"><a href="https://en.wikipedia.org/wiki/Japan">Know More</a></button>
+                </div>
+            </div>
+
+            <div class="card" style="width : 400px;">
+
+                <img class="img-card-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHGGmvcmLJG1NMEZEeg9w8sMINEheaTj_EMg&usqp=CAU">
+                <div class="card-body">
+                    <h1 class="card-title">Canada</h1>
+                    <p class="card-text">
+                        Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.
+                    </p>
+                    <button class="btn btn-warning"><a href="https://en.wikipedia.org/wiki/Canada">Know More</a></button>
+                </div>
+            </div>
+
+            <div class="card" style="width : 400px;">
+
+                <img class="img-card-top" src="data:image/jpeg;base64,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">
+                <div class="card-body">
+                    <h1 class="card-title">Australia</h1>
+                    <p class="card-text">
+                        Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. It is the largest country in Oceania and the world's sixth-largest country. Australia's population of nearly 26 million, in an area of 7,617,930 square kilometres (2,941,300 sq mi), is highly urbanised and heavily concentrated on the eastern seaboard. Canberra is the nation's capital, while the largest city is Sydney, and other major metropolitan areas are Melbourne, Brisbane, Perth, and Adelaide.
+                    </p>
+                    <button class="btn btn-warning"><a href="https://en.wikipedia.org/wiki/Australia">Know More</a></button>
+                </div>
+            </div>
+
+            <div class="card" style="width : 400px;">
+
+                <img class="img-card-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtImArP_aet7Pq3LW5wf1oRcnxH30bRUOZog&usqp=CAU">
+                <div class="card-body">
+                    <h1 class="card-title">China</h1>
+                    <p class="card-text">
+                        China, officially the People's Republic of China, is a country in East Asia and unitary one-party socialist republic led by the Communist Party of China (CPC). It is the world's most populous country, with a population of more than 1.4 billion. China follows a single standard time offset of UTC+08:00 even though it spans five geographical time zones and borders 14 countries, the second most of any country in the world after Russia. Covering an area of approximately 9.6 million square kilometers (3.7 million mi2), it is the world's third or fourth largest country. The country is officially divided into 23 provinces, five autonomous regions, and four direct-controlled municipalities of Beijing (the capital city), Tianjin, Shanghai (the largest city), and Chongqing, as well as two special administrative regions: Hong Kong and Macau.
+                    </p>
+                    <button class="btn btn-warning"><a href="https://en.wikipedia.org/wiki/China">Know More</a></button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <br><br><br><br><br>
+
+    <div class="container">
+
+        <h1>About these Countries</h1>
+
+        <table class="table table-striped table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>Sl. No.</th>
+                    <th>Country Name</th>
+                    <th>Land Area</th>
+                    <th>Population</th>
+                    <th>Continent</th>
+                    <th>Capital</th>
+                <tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>India</td>
+                    <td>3.2 million square kilometers</td>
+                    <td>136.64 crores</td>
+                    <td>Asia</td>
+                    <td>New Delhi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>USA</td>
+                    <td>9.8 million square kilometers</td>
+                    <td>32.82 crores</td>
+                    <td>North America</td>
+                    <td>Washington DC</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Japan</td>
+                    <td>377,975 square kilometers</td>
+                    <td>12.63 crores</td>
+                    <td>Asia</td>
+                    <td>Tokyo</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Canada</td>
+                    <td>9.98 million square kilometres</td>
+                    <td>3.76 crores</td>
+                    <td>North America</td>
+                    <td>Ottawa</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>Australia</td>
+                    <td>7.6 million square kilometres </td>
+                    <td>2.54 crores</td>
+                    <td>Australia</td>
+                    <td>Canberra</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>China</td>
+                    <td>9.6 million square kilometers</td>
+                    <td>139.77 crores </td>
+                    <td>Asia</td>
+                    <td>Beijing</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+    
+</body>
+</html>

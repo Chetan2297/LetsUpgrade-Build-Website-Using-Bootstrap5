@@ -1,3 +1,4 @@
+
 /* css for navbar */
 
 .nav-color{
@@ -12,6 +13,7 @@
     
     height: 70px !important;
 }
+
 
 /* about */
 
@@ -39,6 +41,7 @@
 
 }
 
+
 /* the seven sister */
 
 .own-destinations{
@@ -56,6 +59,7 @@
 
 }
 
+
 /* css for image gallery */
 
 .own-title-2{
@@ -68,6 +72,7 @@
     }
     }
 
+
 /* about css */
 
 .own-title-3{
@@ -75,6 +80,7 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }
+
 
 /* media queries */
 

@@ -1,0 +1,100 @@
+/* css for navbar */
+
+.nav-color{
+    background-color: rgb(119, 197, 119);
+}
+
+.navbar-collapse{
+    background-color: rgb(119, 197, 119);
+}
+
+.navigation{
+    
+    height: 70px !important;
+}
+
+/* about */
+
+.own-container{
+    height: 800px;
+    background-image: url(https://miro.medium.com/max/3840/1*FlSZGtrSV1rA7nYLKJ2KLA.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.own-banner{
+    background-color: rgba(255, 255, 255, 0.685);
+    display:flex;
+    align-items: center;
+}
+
+.own-padd{
+    padding:20px;
+
+}
+
+.own-banner_title{
+    font-size:60px;
+
+}
+
+/* the seven sister */
+
+.own-destinations{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.own-title{
+    text-align: center;
+}
+
+.own-card{
+    width: 400px !important;
+    margin-top: 50px !important;
+
+}
+
+/* css for image gallery */
+
+.own-title-2{
+    text-align: center;
+    padding: 50px;
+}
+@media(min-width:800px){
+    .my-height{
+        height: 750px;
+    }
+    }
+
+/* about css */
+
+.own-title-3{
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* media queries */
+
+@media(max-width:500px){
+    .own-container{
+        height: 850px;
+    }
+
+    .own-padd{
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:280px){
+    .own-container{
+        height: 1100px;
+    }
+
+    .own-padd{
+        padding-top: 50px;
+    }
+}
+
